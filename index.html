@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo de Productos</title>
+    <!-- Agrega el enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos personalizados */
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+        }
+
+        .product-card {
+            border: 1px solid #e1e1e1;
+            border-radius: 5px;
+            margin: 10px;
+            height: 430px;
+            padding: 15px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 300px;
+            /* Establece la altura deseada */
+            object-fit: cover;
+            /* Para mantener la proporción y cubrir el área especificada */
+            margin: 0 auto;
+        }
+
+
+        .product-name {
+            font-weight: bold;
+            color: #e44d26;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            /* Un color llamativo, por ejemplo, naranja */
+            font-size: 18px;
+            /* Tamaño de fuente personalizado */
+        }
+
+        .product-price {
+            color: #4caf50;
+            /* Un color llamativo, por ejemplo, verde */
+            font-size: 16px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            /* Tamaño de fuente personalizado */
+        }
+
+        body {
+            background-image: url('https://usagif.com/wp-content/uploads/gif/snwflks-44.gif');
+            background-size: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Catálogo de Panetones</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://plazavea.vteximg.com.br/arquivos/ids/21396143-512-512/20010622.jpg"
+                        alt="Panetón GN Bolsa 900gr">
+                    <div class="product-name">Panetón GN Bolsa 900gr</div>
+                    <div class="product-price">Precio por unidad: S/21.50</div>
+                    <div class="product-price">A partir de 6 unidades: S/20.50</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://realplaza.vtexassets.com/arquivos/ids/31201530-800-auto?v=638065558422100000&width=800&height=auto&aspect=true"
+                        alt="Panetón GN Caja 900gr">
+                    <div class="product-name">Panetón GN Caja 900gr</div>
+                    <div class="product-price">Precio por unidad: S/22.50</div>
+                    <div class="product-price">A partir de 6 unidades: S/21.50</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://www.miamarket.pe/assets/uploads/30273aed7882c24575f3d133cb07fa2c.jpg"
+                        alt="Panetón TODINNO Bolsa 900gr">
+                    <div class="product-name">Panetón TODINNO Bolsa 900gr</div>
+                    <div class="product-price">Precio por unidad: S/25.00</div>
+                    <div class="product-price">A partir de 6 unidades: S/24.00</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://cluv360.com/public/uploads/products/meta/ik1YefjHe4orSZtvUOFQKPnuZVwE0N5E8mSB5L7R.jpeg"
+                        alt="Panetón TODINNO Caja 900gr + Panetón TODINNITO Caja 85gr">
+                    <div class="product-name">Panetón TODINNO Caja 900gr + Panetón TODINNITO Caja 85gr</div>
+                    <div class="product-price">Precio por unidad: S/28.50</div>
+                    <div class="product-price">A partir de 6 unidades: S/27.00</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://plazavea.vteximg.com.br/arquivos/ids/27689492-1000-1000/20356038.jpg"
+                        alt="Panetón D'Onofrio Caja 880gr">
+                    <div class="product-name">Panetón D'Onofrio Caja 880gr</div>
+                    <div class="product-price">Precio por unidad: S/27.00</div>
+                    <div class="product-price">A partir de 6 unidades: S/25.90</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://plazavea.vteximg.com.br/arquivos/ids/27689497-1000-1000/20356036.jpg"
+                        alt="Panetón D'Onofrio Bolsa 880gr">
+                    <div class="product-name">Panetón D'Onofrio Bolsa 880gr</div>
+                    <div class="product-price">Precio por unidad: S/0.00</div>
+                    <div class="product-price">A partir de 6 unidades: S/0.00</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://plazavea.vteximg.com.br/arquivos/ids/27689518-1000-1000/20366141.jpg"
+                        alt="Panetón D'Onofrio Lata 880gr">
+                    <div class="product-name">Panetón D'Onofrio Lata 880gr</div>
+                    <div class="product-price">Precio por unidad: S/46.00</div>
+                    <div class="product-price">A partir de 6 unidades: S/44.90</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://plazavea.vteximg.com.br/arquivos/ids/27689481-1000-1000/20355222.jpg"
+                        alt="Chocotón D'Onofrio Bolsa 450gr">
+                    <div class="product-name">Chocotón D'Onofrio Bolsa 450gr</div>
+                    <div class="product-price">Precio por unidad: S/22.50</div>
+                    <div class="product-price">A partir de 6 unidades: S/21.90</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://plazavea.vteximg.com.br/arquivos/ids/27689480-1000-1000/20355223.jpg"
+                        alt="Chocotón D'Onofrio Caja 450gr">
+                    <div class="product-name">Chocotón D'Onofrio Caja 450gr</div>
+                    <div class="product-price">Precio por unidad: S/24.50</div>
+                    <div class="product-price">A partir de 6 unidades: S/21.50</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://plazavea.vteximg.com.br/arquivos/ids/27427661-512-512/20356037-2.jpg"
+                        alt="Pan Dulce D'Onofrio Bolsa 490gr">
+                    <div class="product-name">Pan Dulce D'Onofrio Bolsa 490gr</div>
+                    <div class="product-price">Precio por unidad: S/22.50</div>
+                    <div class="product-price">A partir de 6 unidades: S/21.90</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://plazavea.vteximg.com.br/arquivos/ids/1883337-1000-1000/969673.jpg"
+                        alt="Panetón GLORIA Bolsa 900gr">
+                    <div class="product-name">Panetón GLORIA Bolsa 900gr</div>
+                    <div class="product-price">Precio por unidad: S/21.50</div>
+                    <div class="product-price">A partir de 6 unidades: S/19.50</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://plazavea.vteximg.com.br/arquivos/ids/1883339-1000-1000/144726.jpg"
+                        alt="Panetón GLORIA Caja 900gr">
+                    <div class="product-name">Panetón GLORIA Caja 900gr</div>
+                    <div class="product-price">Precio por unidad: S/23.90</div>
+                    <div class="product-price">A partir de 6 unidades: S/21.90</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://realplaza.vtexassets.com/arquivos/ids/20646903-800-auto?v=637800400397570000&width=800&height=auto&aspect=true"
+                        alt="Panetón GLORIA Lata 900gr">
+                    <div class="product-name">Panetón GLORIA Lata 900gr</div>
+                    <div class="product-price">Precio por unidad: S/40.50</div>
+                    <div class="product-price">A partir de 6 unidades: S/39.50</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://plazavea.vteximg.com.br/arquivos/ids/2403220-1000-1000/964974.jpg"
+                        alt="Panetón SAYÓN Bolsa 900gr">
+                    <div class="product-name">Panetón SAYÓN Bolsa 900gr</div>
+                    <div class="product-price">Precio por unidad: S/21.00</div>
+                    <div class="product-price">A partir de 6 unidades: S/18.50</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://supercanastas.com.pe/169-large_default/paneton-sayon-caja-x-800-gr.jpg"
+                        alt="Panetón SAYÓN Caja 900gr">
+                    <div class="product-name">Panetón SAYÓN Caja 900gr</div>
+                    <div class="product-price">Precio por unidad: S/23.00</div>
+                    <div class="product-price">A partir de 6 unidades: S/22.00</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://plazavea.vteximg.com.br/arquivos/ids/27689473-1000-1000/20355225.jpg"
+                        alt="Panetón BUON NATALE Bolsa 750gr">
+                    <div class="product-name">Panetón BUON NATALE Bolsa 750gr</div>
+                    <div class="product-price">Precio por unidad: S/21.50</div>
+                    <div class="product-price">A partir de 6 unidades: S/19.00</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://plazavea.vteximg.com.br/arquivos/ids/27689484-1000-1000/20356035.jpg"
+                        alt="Panetón BUON NATALE Caja 750gr">
+                    <div class="product-name">Panetón BUON NATALE Caja 750gr</div>
+                    <div class="product-price">Precio por unidad: S/25.50</div>
+                    <div class="product-price">A partir de 6 unidades: S/23.90</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://www.molitalia.com.pe/wp-content/uploads/2021/09/427x427-paneton-bolsa-pasqualino-800g.jpg"
+                        alt="Panetón PASQUALINO Bolsa 800gr">
+                    <div class="product-name">Panetón PASQUALINO Bolsa 800gr</div>
+                    <div class="product-price">Precio por unidad: S/18.00</div>
+                    <div class="product-price">A partir de 6 unidades: S/17.30</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://plazavea.vteximg.com.br/arquivos/ids/19932657-512-512/20085714.jpg"
+                        alt="Panetón BLANCA FLOR Bolsa 900gr">
+                    <div class="product-name">Panetón BLANCA FLOR Bolsa 900gr</div>
+                    <div class="product-price">Precio por unidad: S/23.90</div>
+                    <div class="product-price">A partir de 6 unidades: S/21.90</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://plazavea.vteximg.com.br/arquivos/ids/19932656-512-512/20085715.jpg"
+                        alt="Panetón BLANCA FLOR Caja 900gr">
+                    <div class="product-name">Panetón BLANCA FLOR Caja 900gr</div>
+                    <div class="product-price">Precio por unidad: S/26.90</div>
+                    <div class="product-price">A partir de 6 unidades: S/24.90</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://s7d2.scene7.com/is/image/TottusPE/10206466_1?wid=800&hei=800&qlt=70"
+                        alt="Panetón BIMBO Bolsa 900gr">
+                    <div class="product-name">Panetón BIMBO Bolsa 900gr</div>
+                    <div class="product-price">Precio por unidad: S/22.00</div>
+                    <div class="product-price">A partir de 6 unidades: S/19.90</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://vivanda.vtexassets.com/arquivos/ids/400063/20289791.jpg?v=638010505310700000"
+                        alt="Panetón POESSIA Bolsa 900gr">
+                    <div class="product-name">Panetón POESSIA Bolsa 900gr</div>
+                    <div class="product-price">Precio por unidad: S/23.00</div>
+                    <div class="product-price">A partir de 6 unidades: S/22.00</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://plazavea.vteximg.com.br/arquivos/ids/27580838-1000-1000/20366135.jpg?v=638316366134170000"
+                        alt="Panetón COSTA Caja 800gr">
+                    <div class="product-name">Panetón COSTA Caja 800gr</div>
+                    <div class="product-price">Precio por unidad: S/22.90</div>
+                    <div class="product-price">A partir de 6 unidades: S/22.30</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://plazavea.vteximg.com.br/arquivos/ids/21396159-512-512/20117168.jpg"
+                        alt="Panetón San Jorge Caja 1.5Kg">
+                    <div class="product-name">Panetón San Jorge Caja 1.5Kg</div>
+                    <div class="product-price">Precio por unidad: S/33.00</div>
+                    <div class="product-price">A partir de 3 unidades: S/32.00</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="https://s.cornershopapp.com/product-images/2474217.jpg?versionId=vozF_q7NO_VJYrBlckP8sazEbCZu.Mao"
+                        alt="Panetón BALDARACCI Bolsa 800gr">
+                    <div class="product-name">Panetón BALDARACCI Bolsa 800gr</div>
+                    <div class="product-price">Precio por unidad: S/11.00</div>
+                    <div class="product-price">A partir de 6 unidades: S/10.00</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="" alt="Panetón BALDARACCI Mini Bolsa 80gr">
+                    <div class="product-name">Panetón BALDARACCI Mini Bolsa 80gr</div>
+                    <div class="product-price">Precio por unidad: S/3.20</div>
+                    <div class="product-price">A partir de 12 unidades: S/2.90</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="" alt="Panetón BALDARACCI Choco Caja 500gr">
+                    <div class="product-name">Panetón BALDARACCI Choco Caja 500gr</div>
+                    <div class="product-price">Precio por unidad: S/18</div>
+                    <div class="product-price">A partir de 6 unidades: S/17.20</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
