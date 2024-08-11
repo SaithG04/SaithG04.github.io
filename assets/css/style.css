@@ -425,7 +425,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero {
-  background: url(../img/hero.jpg) center no-repeat;
+  background: url(../img/Programar-en-IDE-930x487.png) center no-repeat;
   height: 100%;
   width: 100%;
   display: table;
@@ -2036,7 +2036,7 @@ html, body {
 
 /* Sections background: Quote */
 .section-quote {
-  background: url(../img/quote.jpg) center no-repeat fixed;
+  background: url(../img/experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010125.png) center no-repeat fixed;
 }
 
 .section-quote p {
@@ -2050,7 +2050,7 @@ html, body {
 
 /* Sections background: Me */
 .section-me {
-  background: url(../img/portfolio-7.jpg) center no-repeat fixed;
+  background: url(../img/black.png) center no-repeat fixed;
 }
 
 .section-me h2 {
